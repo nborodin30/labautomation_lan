@@ -171,7 +171,7 @@ def create_lab_agent():
     ]
     
     # Use the working LMStudio setup
-    MY_LMSTUDIO_MODEL_ID = "" 
+    MY_LMSTUDIO_MODEL_ID = "llama3:8" 
 
     lab_agent = Agent(
         model=LMStudio(id=MY_LMSTUDIO_MODEL_ID), 
